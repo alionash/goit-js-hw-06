@@ -1,7 +1,7 @@
 const input = document.querySelector('#font-size-control');
 const spanText = document.querySelector('#text');
 
-input.addEventListener('change', onImputChange)
+input.addEventListener('input', onImputChange)
 
 function onImputChange(event) {
     input.range = event.currentTarget.value;
